@@ -39,4 +39,4 @@ $$ \epsilon_y = y - H \hat{x} $$
 
 **The most probable value of the vector $x$ is the vector $\hat{x}$ that minimizes the sum of squares of 'measurement residual'**
 
-So we will define 'Cost Function' **\mathbf{J}** that means sum of squares of 'measurement residual' 
+So we will define 'Cost Function' $**\mathbf{J}**$ that means sum of squares of 'measurement residual' 
