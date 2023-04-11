@@ -55,7 +55,7 @@ $$ \mathbf{J} = (y-H\hat{x})^T(y-H\hat{x}) $$
 
 $$ = y^Ty - \hat{x}^TH^Ty - y^TH\hat{x}^T + \hat{x}^TH^TH\hat{x} $$
 
-$$ \partial{\mathbf{J}} \over \partial{\hat{x}} = -y^TH - y^TH + 2\hat{x}^TH^TH $$
+$$ {\partial{\mathbf{J}} \over \partial{\hat{x}}} = -y^TH - y^TH + 2\hat{x}^TH^TH $$
 
 $$ = 0 $$
 
