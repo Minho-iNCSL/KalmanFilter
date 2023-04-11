@@ -63,7 +63,7 @@ Solving this equation for \hat{x} results in
 
 $$ H^Ty = H^TH\hat{x} $$
 
-$$ \hat{x} = {(H^TH)}^-1H^Ty $$
+$$ \hat{x} = {(H^TH)}^{-1} H^Ty $$
 
 ( This is only exists if $k \ge n$ and H is full rank. This means that number of measurement $k$ is greater than the number of variables $n$ )
 
