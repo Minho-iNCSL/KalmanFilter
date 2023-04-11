@@ -44,7 +44,7 @@ So we will define 'Cost Function' **$\mathbf{J}$**  that means sum of squares of
 $$
 \begin{aligned}
 \mathbf{J} &= \epsilon_{y1}^2 + ... + \epsilon_{yk}^2
-\qquad &= \epsilon_{y}^T \epsilon_{y}
+&= \epsilon_{y}^T \epsilon_{y}
 \end{aligned}$$ 
 
  
