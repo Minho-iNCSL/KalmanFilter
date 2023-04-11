@@ -33,7 +33,10 @@ Now, define some value that called **'error' or 'measurement residual'**, differ
 
 ( $y$ is the raw measurement of sensor, and $H\hat{x}$ is estimation value. make a rough(대충) estimation can be $\hat{x}$ )
 
-( e.g. "DMM shows 12V [ $y$ ], But I Think that circuit voltage might be 11.7 V [ $\hat{x}$ ] )
+( e.g. "DMM shows 12V [ $y$ ], But I Think that circuit voltage might be 11.7 V [ $\hat{x}$ ], but other guys maybe estimate different value )
 
 $$ \epsilon_y = y - H \hat{x} $$
 
+**The most probable value of the vector $x$ is the vector $\hat{x}$ that minimizes the sum of squares of 'measurement residual'**
+
+So we will define 'Cost Function' **J** that means sum of squares of 'measurement residual' 
