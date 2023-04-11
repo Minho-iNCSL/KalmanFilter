@@ -53,7 +53,7 @@ and minimize **$\mathbf{J}$** with respect to \hat{x}, we compute its partial de
 
 $$ \mathbf{J} = (y-H\hat{x})^T(y-H\hat{x}) $$
 
-$$ = y^Ty - \hat{x}^TH^Ty - y^TH\hat{x}^T + \hat{x}^TH^TH\hat{x} $$ <br/><br/>
+$$ = y^Ty - \hat{x}^TH^Ty - y^TH\hat{x}^T + \hat{x}^TH^TH\hat{x} <br/><br/>$$ 
 
 $$ {\partial{\mathbf{J}} \over \partial{\hat{x}}} = -y^TH - y^TH + 2\hat{x}^TH^TH $$
 
