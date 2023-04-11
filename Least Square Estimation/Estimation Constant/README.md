@@ -11,4 +11,4 @@ $$x = [ 1 ,2,3,4, 5 .. ,n]$$
 
 $$y = Hx + v $$
 
-Then, How can we find the 'best' estimate \hat{x} of $x$ ? ( \hat{x} means value that estimated from y ) 
+Then, How can we find the 'best' estimate $\hat{x}$ of $x$ ? ( $\hat{x}$ means value that estimated from y ) 
