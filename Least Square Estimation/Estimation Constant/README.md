@@ -14,4 +14,4 @@ $$y = Hx + v $$
 Then, How can we find the 'best' estimate $\hat{x}$ of $x$ ? ( $\hat{x}$ means value that estimated from $y$ )
 Let us assume that each element of the measurement vector $y$ is a linear combination of the elements of $x$, with the addition of some measurement noise like below
 
-$$ y_1 = H_11 x_1 + ... + H_1n x_n + v_1 $$
+$$ y_1 = H_{11} x_1 + ... + H_{1n} x_n + v_1 $$
