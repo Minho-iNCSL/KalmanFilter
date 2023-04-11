@@ -8,6 +8,8 @@ We take several measurement using device that can measure desire data. but devic
 
 In this case, we want to estimate a constant scalar. (In general, we estimate a constant 'vector', not scalar)
 
+---
+
 To put the problem in mathematical terms, suppose $x$ is a constant, but unknown n-element vector, and $y$ is a k-element noisy measurement vector
 
 $$x = [ 1 ,2,3,4, 5 .. ,n]$$
