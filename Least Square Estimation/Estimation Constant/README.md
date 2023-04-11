@@ -49,11 +49,11 @@ $$ = \epsilon_{y}^T \epsilon_{y} $$
  
 **$\mathbf{J}$** is often referred to cost-function, objective-funtion or return-function. We can rewrite **$\mathbf{J}$**
 
-and minimize **$\mathbf{J}$** with respect to \hat{x}, we compute its partial derivative and set it equal to zero.
-
 $$ \mathbf{J} = (y-H\hat{x})^T(y-H\hat{x}) $$
 
-$$ = y^Ty - \hat{x}^TH^Ty - y^TH\hat{x}^T + \hat{x}^TH^TH\hat{x} <br/><br/>$$ 
+$$ = y^Ty - \hat{x}^TH^Ty - y^TH\hat{x}^T + \hat{x}^TH^TH\hat{x} <br/><br/> $$
+
+And minimize **$\mathbf{J}$** with respect to \hat{x}, we compute its partial derivative and set it equal to zero.
 
 $$ {\partial{\mathbf{J}} \over \partial{\hat{x}}} = -y^TH - y^TH + 2\hat{x}^TH^TH $$
 
