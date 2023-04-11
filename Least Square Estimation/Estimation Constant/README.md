@@ -15,3 +15,6 @@ Then, How can we find the 'best' estimate $\hat{x}$ of $x$ ? ( $\hat{x}$ means v
 Let us assume that each element of the measurement vector $y$ is a linear combination of the elements of $x$, with the addition of some measurement noise like below
 
 $$ y_1 = H_{11} x_1 + ... + H_{1n} x_n + v_1 $$
+$$ y_2 = H_{21} x_1 + ... + H_{2n} x_n + v_2 $$
+$$ ... $$
+$$ y_k = H_{k1} x_1 + ... + H_{kn} x_n + v_k $$
