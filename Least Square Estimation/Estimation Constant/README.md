@@ -31,7 +31,7 @@ $$ y = Hx + v $$
 
 Now, define some value that called **'error' or 'measurement residual'**, difference between the noisy measurements and the vector 
 
-($y$ is the raw measurement of sensor, and $ H\hat{x} $ is estimation value)   
+($y$ is the raw measurement of sensor, and $H\hat{x}$ is estimation value)   
 
 $$ \epsilon_y = y - H \hat{x} $$
 
