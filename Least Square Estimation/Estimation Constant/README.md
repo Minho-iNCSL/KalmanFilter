@@ -29,7 +29,7 @@ This set of equation can be put into matrix form as
 
 $$ y = Hx + v $$
 
-Now, define some value that called **'error' or 'measurement residual'**, difference between the noisy measurements and the vector 
+Now, define some value that called **'error' or 'measurement residual'**, difference between the noisy measurements and the vector $H\hat{x}$
 
 ( $y$ is the raw measurement of sensor with noise, and $H\hat{x}$ is real value without noise. make a rough(대충) estimation can be $y$ )
 
