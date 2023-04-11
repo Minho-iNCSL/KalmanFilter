@@ -45,5 +45,5 @@ $$ \mathbf{J} = \epsilon_{y1}^2 + ... + \epsilon_{yk}^2 $$
 
 $$ = \epsilon_{y}^T \epsilon_{y} $$
 
-
+asdasd
  
