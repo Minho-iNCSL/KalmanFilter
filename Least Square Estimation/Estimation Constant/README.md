@@ -63,9 +63,12 @@ Solving this equation for \hat{x} results in
 
 $$ H^Ty = H^TH\hat{x} $$
 
-$$ \hat{x} = (H^TH)^-1H^Ty
+$$ \hat{x} = (H^TH)^-1H^Ty $$
 
 ( This is only exists if $k \ge n$ and H is full rank. This means that number of measurement $k$ is greater than the number of variables $n$ )
 
 ( 쉽게말해서, 우리가 추정하고자 하는 변수의 개수보다 측정치의 개수가 더 많아야지 위의 수식이 성립한다 -- 역함수가 존재하기 위한 조건을 떠올리자! )
 
+---
+
+Let's start implement of the Least square Estimation of Constant 
