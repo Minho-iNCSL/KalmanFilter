@@ -12,7 +12,7 @@ In this case, we want to estimate a constant scalar. (In general, we estimate a 
 
 To put the problem in mathematical terms, suppose $x$ is a constant, but unknown n-element vector, and $y$ is a k-element noisy measurement vector
 
-$$x = [ 1 ,2,3,4, 5 .. ,n]$$
+$$x = [1,2,3,4,5 .. ,n]$$
 
 Then, How can we find the 'best' estimate $\hat{x}$ of $x$ ? ( $\hat{x}$ means value that estimated from $y$ )
 Let us assume that each element of the measurement vector $y$ is a linear combination of the elements of $x$, with the addition of some measurement noise like below
@@ -31,7 +31,9 @@ $$ y = Hx + v $$
 
 Now, define some value that called **'error' or 'measurement residual'**, difference between the noisy measurements and the vector 
 
-($y$ is the raw measurement of sensor, and $H\hat{x}$ is estimation value)   
+($y$ is the raw measurement of sensor, and $H\hat{x}$ is estimation value. make a rough(대충) estimation can be $\hat{x}$)
+
+(e.g. "DMM shows 12V ($y$), But I Think that circuit voltage might be 11.7 V ($\hat{x}$) 
 
 $$ \epsilon_y = y - H \hat{x} $$
 
