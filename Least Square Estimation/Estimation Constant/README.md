@@ -43,7 +43,23 @@ So we will define 'Cost Function' **$\mathbf{J}$**  that means sum of squares of
 
 $$ \mathbf{J} = \epsilon_{y1}^2 + ... + \epsilon_{yk}^2 $$
 
-$$ = \epsilon_{y}^T \epsilon_{y} $$
+$$ = \epsilon_{y}^T \epsilon_{y} $$ 
 
-asdasd
+( $y$ is column vector, so square in vector is multiply to transpose form )
  
+**$\mathbf{J}$** is often referred to cost-function, objective-funtion or return-function. We can rewrite **$\mathbf{J}$**
+
+and minimize **$\mathbf{J}$** with respect to \hat{x}, we compute its partial derivative and set it equal to zero.
+
+$$ \mathbf{J} = (y-H\hat{x})^T(y-H\hat{x}) $$
+
+$$ = y^Ty - \hat{x}^TH^Ty - y^TH\hat{x}^T + \hat{x}^TH^TH\hat{x} $$
+
+$$ \partial{\mathbf{J}} \over \partial{\hat{x}} = -y^TH - y^TH + 2\hat{x}^TH^TH $$
+
+$$ = 0 $$
+
+asd
+
+
+
