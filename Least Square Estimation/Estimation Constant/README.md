@@ -31,9 +31,9 @@ $$ y = Hx + v $$
 
 Now, define some value that called **'error' or 'measurement residual'**, difference between the noisy measurements and the vector 
 
-($y$ is the raw measurement of sensor, and $H\hat{x}$ is estimation value. make a rough(대충) estimation can be $\hat{x}$)
+( $y$ is the raw measurement of sensor, and $H\hat{x}$ is estimation value. make a rough(대충) estimation can be $\hat{x}$ )
 
-(e.g. "DMM shows 12V ($y$), But I Think that circuit voltage might be 11.7 V ($\hat{x}$) 
+(e.g. "DMM shows 12V ( $y$ ), But I Think that circuit voltage might be 11.7 V ( $\hat{x}$ ) 
 
 $$ \epsilon_y = y - H \hat{x} $$
 
