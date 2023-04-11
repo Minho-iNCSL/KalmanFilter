@@ -9,8 +9,6 @@ To put the problem in mathematical terms, suppose $x$ is a constant, but unknown
 
 $$x = [ 1 ,2,3,4, 5 .. ,n]$$
 
-$$y = Hx + v $$
-
 Then, How can we find the 'best' estimate $\hat{x}$ of $x$ ? ( $\hat{x}$ means value that estimated from $y$ )
 Let us assume that each element of the measurement vector $y$ is a linear combination of the elements of $x$, with the addition of some measurement noise like below
 
@@ -21,3 +19,12 @@ $$ y_2 = H_{21} x_1 + ... + H_{2n} x_n + v_2 $$
 $$ ... $$
 
 $$ y_k = H_{k1} x_1 + ... + H_{kn} x_n + v_k $$
+
+This set of equation can be put into matrix form as
+
+$$ y = Hx + v $$
+
+Now, define some value that called 'error', difference between the noisy measurements and the vector 
+
+$$ \epsilon_y = y - H \hat{x} $$
+
