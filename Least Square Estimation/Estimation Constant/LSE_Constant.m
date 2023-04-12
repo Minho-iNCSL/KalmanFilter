@@ -22,9 +22,10 @@ best_x = inv(H'*H)*H'*y
 average = mean(y)
 
 %% plot
-title('Least square estimation of constant (weight)');
-plot(1:1000, 75*ones(1,1000), 'b', 1:1000, y(1:1000), 'r'); hold on; grid on;
+plot(1:1000, 75*ones(1,1000), 'b', LineWidth=2); hold on; grid on;
+plot(1:1000, y(1:1000), 'r');
 plot(1:1000, best_x*ones(1,1000), '--k', 'linewidth',2);
+title('Least square estimation of constant (weight)');
 xlabel('data index');
 ylabel('weight(kg)');
 ylim([50 100]);
