@@ -129,3 +129,7 @@ y_{1000}
 $$
 
 $$ = {1 \over 1000}(y_1 + \cdots + y_{1000}) $$
+
+---
+
+REFERENCE : Simon, D. (2006). Optimal state estimation Kalman, H infinity, and nonlinear approaches. John Wiley & Sons
