@@ -2,7 +2,7 @@
 
 Previous Equation (Constant, Weighted) gives us a way to compute the optimal estimate of a constantm, but there is a problem.
 
-**If we obtain measurements sequentially and want to update our estimate of $x$ wtih each new measurement... **
+**If we obtain measurements sequentially and want to update our estimate of $x$ wtih each new measurement...**
 
 We need to augment the %H$ Matrix and completely recompute the estimate $\hat{x}$.
 
