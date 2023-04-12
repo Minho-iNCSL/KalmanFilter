@@ -66,11 +66,13 @@ $$ = \epsilon_y^T R^{-1} \epsilon_y $$
 
 $$ = (y-H\hat{x})^T R^{-1} (y-H\hat{x}) $$
 
-$$ = y^TR^{-1}y - \hat{x}^T H^T R^{-1} y - y^T R^{-1} H \hat{x} + \hat{x}^T H^T R^{-1} H \hat{x}
+$$ = y^TR^{-1}y - \hat{x}^T H^T R^{-1} y - y^T R^{-1} H \hat{x} + \hat{x}^T H^T R^{-1} H \hat{x} $$
 
 We take the partial derivative of $\mathbf{J}$ with respect to $\hat{x}$ and set it equal to zero to compute the best estimate $\hat{x}$
 
 $$ {\partial{\mathbf{J}} \over \partial{\hat{x}}} = -y^TR^{-1}H + \hat{x}^T H^T R^{-1} H = 0 $$
+
+The best estimation of $\hat{x}$ is ...
 
 $$ H^T R^{-1} y = H^T R^{-1} H \hat{x} $$
 
