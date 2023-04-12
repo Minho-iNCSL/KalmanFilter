@@ -78,3 +78,8 @@ The best estimation of $\hat{x}$ is ...
 $$ H^T R^{-1} y = H^T R^{-1} H \hat{x} $$
 
 $$ \hat{x} = (H^TR^{-1}H)^{-1}H^TR^{-1}y $$
+
+Note that this method requires that the measurement noise matrix $R$ be nonsingular. In other words, each of the measurement $y_i$ must be corrupted by
+at least some noise for this method to work. (if variance is zero, $\mathbf{J} = \infty $)
+
+(이 말은, 노이즈가 없을경우 즉 분산이 0이 되는 경우에 Cost Funtion 이 무한대로 발산하므로 이 Weigted LSE는 동작하지 않는다. )
