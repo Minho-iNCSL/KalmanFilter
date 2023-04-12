@@ -13,7 +13,8 @@ x = 75; % weight
 
 H = ones(1000,1);
 
-v = 2*randn(1000,1);
+v = randn(1000,1);
+
 R = diag(v);
 
 y = H*x + v; 
@@ -30,5 +31,4 @@ plot(1:1000, best_x*ones(1,1000), '--k', 'linewidth',2);
 title('Weighted Least square estimation (weight)');
 xlabel('data index');
 ylabel('weight(kg)');
-ylim([50 100]);
 legend('Estimated Value', 'Raw Measurement', 'Mean', 'Best Estimation (WLS)');
