@@ -83,3 +83,8 @@ Note that this method requires that the measurement noise matrix $R$ be nonsingu
 at least some noise for this method to work. (if variance is zero, $\mathbf{J} = \infty $)
 
 (이 말은, 노이즈가 없을경우 즉 분산이 0이 되는 경우에 Cost Funtion 이 무한대로 발산하므로 이 Weigted LSE는 동작하지 않는다. )
+
+---
+
+Let's start implement of the Weighted Least square Estimation of Constant
+
