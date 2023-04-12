@@ -125,4 +125,6 @@ y_k
 \end{bmatrix}
 $$
 
-$$ = ( \sum{1/\sigma_{1}^2} )^{-1}({y_1 / \sigma_{1}^2} + ... + {y_k / \sigma_{k}^2}) $$
+$$ = ( \sum{1/\sigma_{i}^2} )^{-1}({y_1 / \sigma_{1}^2} + ... + {y_k / \sigma_{k}^2}) $$
+
+**Note that if all $\sigma_i$ constants are equal, this estimate reduces to the simpler form like "LSE Constant"....**
