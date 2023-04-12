@@ -125,4 +125,4 @@ y_k
 \end{bmatrix}
 $$
 
-$$ = (sum{1 \over \sigma_{1}^2})^{-1}({y_1 \over \sigma_{1}^2} + ... + {y_k \over \sigma_{k}^2}) $$
+$$ = (sum{1 / \sigma_{1}^2})^{-1}({y_1 / \sigma_{1}^2} + ... + {y_k / \sigma_{k}^2}) $$
