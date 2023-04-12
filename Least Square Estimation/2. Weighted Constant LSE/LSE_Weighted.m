@@ -11,8 +11,6 @@ clc; clear; close all;
 % x = estimated value, we assume 75kg
 % v = measurement noise
 %
-% each noise of measurement is zero-mean and variance is gaussian distribution 
-%
 
 x = 75; % weight
 
