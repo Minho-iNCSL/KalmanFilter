@@ -36,7 +36,7 @@ x_n
 v_1 \\ 
 \vdots \\ 
 v_k 
-\end{bmatrix} = 
+\end{bmatrix}
 $$
 
-&& \Epsilon(v_i^2) = \sigma_i^2 (i=1,...,k)$$
+&& \Epsilon(v_i^2) = \sigma_i^2 (i=1,...,k) $$
