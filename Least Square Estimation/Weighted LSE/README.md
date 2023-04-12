@@ -15,3 +15,28 @@ In Weighted LSE, we can indeed get sonme information from less reliable measurem
 
 To put the problem im mathematical terms, suppose $\hat{x}$ is a constant but unknown $n$-element vector and $y$ is a $k$-element noisy measurement vector.
 
+the variance of the measurement noise may be different for each element of $y$
+
+$$\begin{bmatrix} 
+y_1 \\ 
+\vdots \\ 
+y_k 
+\end{bmatrix} = 
+\begin{bmatrix} 
+H_{11} & \cdots & H_{1n} \\ 
+\vdots & \ddots & vdots \\ 
+H_{k1} & \cdots & H_{kn} 
+\end{bmatrix} 
+\begin{bmatrix} 
+x_1 \\ 
+\vdots \\ 
+x_n 
+\end{bmatrix} +
+\begin{bmatrix} 
+v_1 \\ 
+\vdots \\ 
+v_k 
+\end{bmatrix} = 
+$$
+
+&& \Epsilon(v_i^2) = \sigma_i^2 (i=1,...,k)$$
