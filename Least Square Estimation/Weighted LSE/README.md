@@ -45,9 +45,20 @@ We assume that the noise for each measurement is **zero-mean** and independent. 
 
 $$ R = \mathbf{E}(vv^T) $$
 
-$$ \begin{bmatrix} 
+$$ = \begin{bmatrix} 
 \sigma_{1}^2 & \cdots & 0 \\ 
 \vdots &  & \vdots \\ 
 0 & \cdots & \sigma_{k}^2
 \end{bmatrix} 
 $$
+
+Now, we will minimize the following quantitiy with respect to $\hat{x}$.
+
+Note that instead of minimizing the sum of squares of the $\epsilon_y$ elements as we did in constant estimation before, 
+we will minimize the **weighted sum of squares**. If $y_1$ is a relatively noisy measurement. then we do not care as much about minimizing
+the difference between $y_1$ and the first element of $H\hat{x}$. because we do not have much confidence in $y_1$ in the first place.
+
+$$ \epsilon_{yk} = y_k - H\hat{x}_k $$
+
+$$ \mathbf{J} = \epsilon_{y1}^2 / \sigma_1^2 + \cdots + \epsilon_{yk}^2 / \sigma_k^2 $$
+
