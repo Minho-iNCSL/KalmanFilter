@@ -90,7 +90,7 @@ Let's start implement of the Weighted Least square Estimation of Constant
 
 ![result_wlse](https://user-images.githubusercontent.com/60316325/231346769-3f64debe-be13-4054-8d2f-647c7cdeae6f.PNG)
 
-(It may seem inaccurate, but result of $\hat{x}$ that estimated based on $y_k$ and $R$ is fine.)
+(It may seem inaccurate, but result of $\hat{x}$ that estimated based on $y_k$ and $R$ is fine. Mean value almost same with $x$=75 because we assumed the noise as zero-mean)
 
 Equation (1) shows that the optimal estimate of the weight in this example..
 
