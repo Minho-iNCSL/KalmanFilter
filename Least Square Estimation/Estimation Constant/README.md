@@ -110,20 +110,20 @@ $$ \hat{x} = (H^TH)^{-1}H^Ty $$
 
 $$ = \begin{pmatrix} 
 \begin{bmatrix} 
-1 & \vdots & 1
+1 & \cdots & 1
 \end{bmatrix}
 \begin{bmatrix} 
 1 \\
-\cdots \\
+\vdots \\
 1
 \end{bmatrix}
 \end{pmatrix}^{-1} 
 \begin{bmatrix} 
-1 & \vdots & 1
+1 & \cdots & 1
 \end{bmatrix}
 \begin{bmatrix} 
 y_1 \\
-\cdots \\
+\vdots \\
 y_{1000}
 \end{bmatrix}
 $$
