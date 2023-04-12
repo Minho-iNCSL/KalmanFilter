@@ -159,3 +159,38 @@ $$ K_kR_k = (I-K_kH_k)P_{k-1}H_k^T $$
 $$ K_k(R_k + H_kP_{k-1}H_k^T) = P_{k-1}H_k^T $$
 
 $$ K_k = P_{k-1}H_k^T(H_kP_{k-1}H_k^T + R_k)^{-1} $$
+
+---
+
+## Summary 
+
+**1. Initialize the estimator**
+
+$$ \hat{x}\_0 = \mathbf{E}(x) \qquad \qquad \qquad \quad$$
+
+$$ P_0 = \mathbf{E}[(x-\hat{x}\_0)(x-\hat{x}\_0)^T] $$
+
+$\qquad$ If we don't know about available $x$ before measurements are taken, then $P_0 = \infty I$,
+
+$\qquad$ If perfectly know about available $x$ before measurement are taken, then $P_0 = 0$. 
+
+**2. For $k = 1, 2, ...,$ perform the following**
+
+$\qquad$ (a) Obtain the measurement $y_k$, assuming that $y_k$ is give by the equation
+
+$$ y_k = H_kx + v_k $$
+
+$\qquad$ Where $v_k$ is a zero-mean random vector with covariance $R_k$. (Measurement Noise is white = random noise)
+
+$\qquad$ (b) Update the estimate of $x$ and the estimation-error covariance $P$ as follows
+
+$$ K_k = P_{k-1}H_k^T(H_kP_{k-1}H_k^T + R_k)^{-1}$$
+
+$$ \hat{x}\_k = \hat{x}\_{k-1} + K_k(y_k - H_k\hat{x}\_{k-1}) \quad \ \$$
+
+$$ \qquad \qquad \qquad P_k = (I-K_kH_k)P_{k-1}(I-K_kH_k)^T + K_kR_kK_k^T $$
+
+---
+
+It's Done. Let's understand through an example
+
