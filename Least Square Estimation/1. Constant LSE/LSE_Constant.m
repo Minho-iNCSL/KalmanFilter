@@ -1,8 +1,9 @@
 clc; clear; close all;
 
-% Let's start Estimation of constant (person weight)
+% Let's start Estimation of constant 
+% we have one guy's weight data ( 1,000 data ).
+% But scale has random noise.. So how can we decide best estimation of his weight from 1,000 data??
 %
-% we have 1,000 data.
 % y = measured from digital scale
 % x = estimated value, we assume 75kg
 %
