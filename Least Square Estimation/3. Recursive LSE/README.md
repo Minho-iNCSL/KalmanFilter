@@ -194,3 +194,10 @@ $$ \qquad \qquad \qquad P_k = (I-K_kH_k)P_{k-1}(I-K_kH_k)^T + K_kR_kK_k^T $$
 
 It's Done. Let's understand through an example
 
+![image](https://user-images.githubusercontent.com/60316325/231451830-367506d9-ada4-49be-a5f2-c330a06a2625.png)
+
+We can see estimate of $x_1$ and $x_2$ as measurement are obtained. along with the variance of the estimation erros.
+
+It can be seen that after a couple dozen measurements the estimates become quite close to their true values of 10 and 5.
+
+The variances of the estimation errors asympototically approach zero.
