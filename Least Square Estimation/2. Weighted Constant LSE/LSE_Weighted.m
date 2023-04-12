@@ -1,19 +1,31 @@
 clc; clear; close all;
 
-% Let's start Estimation of constant (person weight)
+% Let's start Estimation of constant 
+% we have one guy's weight data ( 1,000 data ).
+% But scale has random noise and different each time because he weighs in 2 scales. 
+% even-numbered of v is expensive scale (accuracy) but odd-numbered of v is cheaper scale (inaccuracy) 
+% In this case, how can we decide best estimation of his weight from 1,000 data??
 %
 % we have 1,000 data.
 % y = measured from digital scale
 % x = estimated value, we assume 75kg
-% 
-% noise of measurement is zero-mean and variance is gaussian distribution 
+% v = measurement noise
+%
+% each noise of measurement is zero-mean and variance is gaussian distribution 
 %
 
 x = 75; % weight
 
 H = ones(1000,1);
 
-v = randn(1000,1);
+v = ones(1000,1);
+for k=1:1000
+    if rem(k,2) == 0
+        v(k) = randn(1);
+    else
+        v(k) = 3*randn(1);
+    end
+end
 
 R = diag(v);
 
