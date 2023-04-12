@@ -1,16 +1,11 @@
 # Weighted Least square estimation
 
 We assumed that we had an eqaul amount of confidence in all of our measurement.
-
 Now suppose we have more confidence in some measurements than others.
 
-In this case, some measurements were taken with an expensive device (more accuracy) with low noise, 
+In this case, some measurements were taken with an expensive device (more accuracy) with low noise, but other measurements were taken with a cheap device. 
 
-but other measurements were taken with a cheap device. 
-
-Obviously, we have more confidence in the first set of measurements (expensive device). 
-
-However, even though the second set of measurements (cheap device) is less reliable, it seems that we could get least some information from them.
+Obviously, we have more confidence in the first set of measurements (expensive device). However, even though the second set of measurements (cheap device) is less reliable, it seems that we could get least some information from them.
 
 In Weighted LSE, we can indeed get sonme information from less reliable measurements. 
 
