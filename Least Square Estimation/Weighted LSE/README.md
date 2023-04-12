@@ -40,3 +40,14 @@ v_k
 $$
 
 $$ \mathbf{E}(v_i^2) = \sigma_i^2 \quad (i=1,...,k) $$
+
+We assume that the noise for each measurement is **zero-mean** and independent. The measurement covariance matrix is
+
+$$ R = \mathbf{E}(vv^T) $$
+
+$$ \begin{bmatrix} 
+\sigma_{1}^2 & \cdots & 0 \\ 
+\vdots &  & vdots \\ 
+0 & \cdots & \sigma_{k}^2
+\end{bmatrix} 
+$$
