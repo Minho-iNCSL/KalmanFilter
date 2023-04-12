@@ -47,7 +47,7 @@ $$ R = \mathbf{E}(vv^T) $$
 
 $$ \begin{bmatrix} 
 \sigma_{1}^2 & \cdots & 0 \\ 
-\vdots &  & vdots \\ 
+\vdots &  & \vdots \\ 
 0 & \cdots & \sigma_{k}^2
 \end{bmatrix} 
 $$
