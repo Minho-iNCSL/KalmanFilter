@@ -21,7 +21,7 @@ $$ y_1 = H_{11} x_1 + ... + H_{1n} x_n + v_1 $$
 
 $$ y_2 = H_{21} x_1 + ... + H_{2n} x_n + v_2 $$
 
-$$ ... $$
+$$ \vdots $$
 
 $$ y_k = H_{k1} x_1 + ... + H_{kn} x_n + v_k $$
 
@@ -81,12 +81,25 @@ As you can see from the results, the results are the same as average or mean. Th
 
 $$ y_1 = x + v_1 $$
 
-$$ ... $$
+$$ \vdots $$
 
 $$ y_{1000} = x + v_{1000} $$
 
+These equation can be combined in to a single matrix equation as
+
 $$ \begin{bmatrix} 
+y_1 \\ 
+\vdots \\ 
+y_1000 
+\end{bmatrix} = 
+\begin{bmatrix} 
 1 \\ 
-vdots \\ 
+\vdots \\ 
 1 
-\end{bmatrix} $$
+\end{bmatrix} x +
+\begin{bmatrix} 
+v_1 \\ 
+\vdots \\ 
+v_1000
+\end{bmatrix}
+$$
