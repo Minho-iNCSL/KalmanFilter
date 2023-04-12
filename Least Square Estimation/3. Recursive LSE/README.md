@@ -11,3 +11,7 @@ If the number of measurements becomes large, then the computational effort could
 ---
 
 In this example, we show how to **recursively** compute the "weighted least squares estimate of a constant".
+
+That is, suppose we have $\hat{x}$ after ($k-1$) measurements, and we obtain a new measurement $y_k$. 
+
+How can we update our estimate without completely rewokring Equation $ \hat{x} = (H^TR^{-1}H)^{-1}H^TR^{-1}y $ ???
