@@ -101,7 +101,7 @@ $$\hat{x} =
 \end{bmatrix}
 \begin{bmatrix} 
 \sigma_{1}^2 & \cdots & 0 \\ 
-\vdots &  & \vdots \\ 
+\vdots & \ddots & \vdots \\ 
 0 & \cdots & \sigma_{k}^2
 \end{bmatrix}^{-1}
 \begin{bmatrix} 
@@ -115,7 +115,7 @@ $$\hat{x} =
 \end{bmatrix}
 \begin{bmatrix} 
 \sigma_{1}^2 & \cdots & 0 \\ 
-\vdots &  & \vdots \\ 
+\vdots & \ddots & \vdots \\ 
 0 & \cdots & \sigma_{k}^2
 \end{bmatrix}^{-1}
 \begin{bmatrix} 
@@ -124,3 +124,5 @@ y_1 \\
 y_k
 \end{bmatrix}
 $$
+
+$$ = (sum{1 \over \sigma_{1}^2})^{-1}({y_1 \over \sigma_{1}^2} + ... + {y_k \over \sigma_{k}^2}) $$
