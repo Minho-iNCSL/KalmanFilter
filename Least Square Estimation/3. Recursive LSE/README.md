@@ -18,7 +18,7 @@ How can we update our estimate without completely rewokring Equation $\hat{x} = 
 
 ### A Linear Recursive estimator can be written in the form
 
-$$ y_k = H_kx + v_k \qquad \qquad \qquad \ \$$
+$$ y_k = H_kx + v_k \qquad \qquad \qquad \qquad \quad$$
 
 $$ \hat{x}\_k = \hat{x}\_{k-1} + K_k(y_k - H_k \hat{x}\_{k-1}) ... (1)$$
 
