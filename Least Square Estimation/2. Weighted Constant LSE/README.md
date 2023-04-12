@@ -88,7 +88,7 @@ at least some noise for this method to work. (if variance is zero, $\mathbf{J} =
 
 Let's start implement of the Weighted Least square Estimation of Constant
 
-![result_wlse](https://user-images.githubusercontent.com/60316325/231346769-3f64debe-be13-4054-8d2f-647c7cdeae6f.PNG)
+![image](https://user-images.githubusercontent.com/60316325/231440247-f95a5ea7-3f28-4cb9-865b-f3ae9675738c.png)
 
 (It may seem inaccurate, but result of $\hat{x}$ that estimated based on $y_k$ and $R$ is fine. Mean value almost same with $x$=75 because we assumed the noise as zero-mean)
 
