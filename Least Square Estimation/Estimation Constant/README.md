@@ -90,7 +90,7 @@ These equation can be combined in to a single matrix equation as
 $$ \begin{bmatrix} 
 y_1 \\ 
 \vdots \\ 
-y_1000 
+y_{1000} 
 \end{bmatrix} = 
 \begin{bmatrix} 
 1 \\ 
@@ -100,6 +100,22 @@ y_1000
 \begin{bmatrix} 
 v_1 \\ 
 \vdots \\ 
-v_1000
+v_{1000}
 \end{bmatrix}
+$$
+
+So, optimal estimate of the weight $x$ is given as
+
+$$ \hat{x} = (H^TH)^{-1}H^Ty $$
+
+$$ \begin{pmatrix} 
+\begin{bmatrix} 
+1 & \ddots & 1
+\end{bmatrix}
+\begin{bmatrix} 
+1 \\
+\vdots \\
+1
+\end{bmatrix}
+\end{pmatrix}^{-1}
 $$
