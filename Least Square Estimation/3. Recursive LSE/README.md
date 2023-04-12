@@ -52,7 +52,7 @@ In other words, the measurement noise $v_k$ is zero-mean for all k, and the init
 
 Then expected value of $\hat{x}\_k$ will be equal to $x_k$ for all $k$.
 
-(즉, 측정치 잡음의 모든 $k$에 대해 평균이 0이고, $x$의 초기 추정치가 $x$의 기댓값과 같다면, $\hat{x}\_0 = \mathbf{E}(x)$)
+(즉, 측정치 잡음의 모든 $k$에 대해 평균이 0이고, $x$의 초기 추정치가 $x$의 기댓값과 같다면, $\hat{x}\_0 = \mathbf{E}(x)$ )
 
 ($k$ step 에서의 추정치는, 모든 $k$ 에 대해 $x_k$와 같아진다.)
 
