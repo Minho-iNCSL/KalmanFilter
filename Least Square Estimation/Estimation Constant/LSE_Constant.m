@@ -27,4 +27,5 @@ plot(1:1000, 75*ones(1,1000), 'b', 1:1000, y(1:1000), 'r'); hold on; grid on;
 plot(1:1000, best_x*ones(1,1000), '--k', 'linewidth',2);
 xlabel('data index');
 ylabel('weight(kg)');
+ylim([50 100]);
 legend('Estimated Value', 'Raw Measurement', 'Best Estimation (Least Square)');
