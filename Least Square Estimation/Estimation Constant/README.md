@@ -85,4 +85,8 @@ $$ ... $$
 
 $$ y_{1000} = x + v_{1000} $$
 
-$$ \begin{bmatrix} 1 \\ vdots \\ 1 \end{bmatrix} $$
+$$ \begin{bmatrix} 
+1 \\ 
+vdots \\ 
+1 
+\end{bmatrix} $$
