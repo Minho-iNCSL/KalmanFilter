@@ -74,3 +74,5 @@ $$ \hat{x} = {(H^TH)}^{-1} H^Ty $$
 ---
 
 Let's start implement of the Least square Estimation of Constant 
+
+![result](https://user-images.githubusercontent.com/60316325/231324630-42d665cf-a99a-4f1c-bf53-585f61958499.PNG)
