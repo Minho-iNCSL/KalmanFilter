@@ -194,7 +194,7 @@ $$ \qquad \qquad \qquad P_k = (I-K_kH_k)P_{k-1}(I-K_kH_k)^T + K_kR_kK_k^T $$
 
 It's Done. Let's understand through an example
 
-![image](https://user-images.githubusercontent.com/60316325/231451830-367506d9-ada4-49be-a5f2-c330a06a2625.png)
+![image](https://user-images.githubusercontent.com/60316325/231452524-924115b4-b50a-4803-b16f-ceaeeda1d36d.png)
 
 We can see estimate of $x_1$ and $x_2$ as measurement are obtained. along with the variance of the estimation erros.
 
