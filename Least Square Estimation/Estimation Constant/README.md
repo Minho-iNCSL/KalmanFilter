@@ -76,3 +76,13 @@ $$ \hat{x} = {(H^TH)}^{-1} H^Ty $$
 Let's start implement of the Least square Estimation of Constant 
 
 ![result](https://user-images.githubusercontent.com/60316325/231324630-42d665cf-a99a-4f1c-bf53-585f61958499.PNG)
+
+As you can see from the results, the results are the same as average or mean. This can be seen from the following formula
+
+$$ y_1 = x + v_1 $$
+
+$$ ... $$
+
+$$ y_{1000} = x + v_{1000} $$
+
+$$ \begin{bmatrix} 1 \\ vdots \\ 1 \end{bmatrix} $$
