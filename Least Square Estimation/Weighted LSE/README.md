@@ -39,4 +39,4 @@ v_k
 \end{bmatrix}
 $$
 
-$$ \Epsilon (v_i^2) = \sigma_i^2 (i=1,...,k) $$
+$$ \mathbf{E}(v_i^2) = \sigma_i^2   (i=1,...,k) $$
