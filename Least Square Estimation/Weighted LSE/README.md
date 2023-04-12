@@ -24,7 +24,7 @@ y_k
 \end{bmatrix} = 
 \begin{bmatrix} 
 H_{11} & \cdots & H_{1n} \\ 
-\vdots & \ddots & vdots \\ 
+\vdots & \ddots & \vdots \\ 
 H_{k1} & \cdots & H_{kn} 
 \end{bmatrix} 
 \begin{bmatrix} 
