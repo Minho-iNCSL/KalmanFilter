@@ -110,7 +110,7 @@ $$ \hat{x} = (H^TH)^{-1}H^Ty $$
 
 $$ = \begin{pmatrix} 
 \begin{bmatrix} 
-1 & \ddots & 1
+1 & \vdots & 1
 \end{bmatrix}
 \begin{bmatrix} 
 1 \\
@@ -119,7 +119,7 @@ $$ = \begin{pmatrix}
 \end{bmatrix}
 \end{pmatrix}^{-1} 
 \begin{bmatrix} 
-1 & \ddots & 1
+1 & \vdots & 1
 \end{bmatrix}
 \begin{bmatrix} 
 y_1 \\
@@ -128,4 +128,4 @@ y_{1000}
 \end{bmatrix}
 $$
 
-$$ = {1000 \over 1}(y_1 + \cdots + y_{1000}) $$
+$$ = {1 \over 1000}(y_1 + \cdots + y_{1000}) $$
