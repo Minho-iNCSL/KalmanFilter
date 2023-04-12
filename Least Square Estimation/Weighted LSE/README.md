@@ -77,7 +77,7 @@ The best estimation of $\hat{x}$ is ...
 
 $$ H^T R^{-1} y = H^T R^{-1} H \hat{x} $$
 
-$$ \hat{x} = (H^TR^{-1}H)^{-1}H^TR^{-1}y $$
+$$ \hat{x} = (H^TR^{-1}H)^{-1}H^TR^{-1}y \quad ...(1)$$
 
 Note that this method requires that the measurement noise matrix $R$ be nonsingular. In other words, each of the measurement $y_i$ must be corrupted by
 at least some noise for this method to work. (if variance is zero, $\mathbf{J} = \infty $)
@@ -88,3 +88,39 @@ at least some noise for this method to work. (if variance is zero, $\mathbf{J} =
 
 Let's start implement of the Weighted Least square Estimation of Constant
 
+![result_wlse](https://user-images.githubusercontent.com/60316325/231346769-3f64debe-be13-4054-8d2f-647c7cdeae6f.PNG)
+
+(It may seem inaccurate, but result of $\hat{x}$ that estimated based on $y_k$ and $R$ is fine.)
+
+Equation (1) shows that the optimal estimate of the weight in this example..
+
+$$\hat{x} = 
+\begin{pmatrix} 
+\begin{bmatrix} 
+1 & \cdots & 1
+\end{bmatrix}
+\begin{bmatrix} 
+\sigma_{1}^2 & \cdots & 0 \\ 
+\vdots &  & \vdots \\ 
+0 & \cdots & \sigma_{k}^2
+\end{bmatrix}^{-1}
+\begin{bmatrix} 
+1 \\
+\vdots \\
+1
+\end{bmatrix}
+\end{pmatrix}^{-1} \times
+\begin{bmatrix} 
+1 & \cdots & 1
+\end{bmatrix}
+\begin{bmatrix} 
+\sigma_{1}^2 & \cdots & 0 \\ 
+\vdots &  & \vdots \\ 
+0 & \cdots & \sigma_{k}^2
+\end{bmatrix}^{-1}
+\begin{bmatrix} 
+y_1 \\
+\vdots \\
+y_k
+\end{bmatrix}
+$$
